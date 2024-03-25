@@ -1,0 +1,28 @@
+/* dashboard.component.scss */
+
+.dashboard {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+    /* Make the dashboard fill the entire viewport */
+    height: 100vh; /* 100% of the viewport height */
+    width: 100%;   /* 100% of the viewport width */
+    margin: 0;     /* Remove any default margin */
+    display: flex; /* Use flexbox to center content vertically and horizontally */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center;     /* Center items horizontally */
+  
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      color: #666;
+    }
+  }
+  
